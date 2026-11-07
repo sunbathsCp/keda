@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+
+language: en-US
+early_access: false
+
+tone_instructions: >-
+  Be concise and actionable. Avoid subjective rewrites, repeating CI results,
+  and suggesting changes outside the PR scope.
+
+reviews:
