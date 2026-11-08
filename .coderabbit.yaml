@@ -8,3 +8,13 @@ tone_instructions: >-
   and suggesting changes outside the PR scope.
 
 reviews:
+  profile: chill
+  high_level_summary: false
+  poem: false
+  request_changes_workflow: false
+  collapse_walkthrough: true
+  enable_prompt_for_ai_agents: false
+  assess_linked_issues: true
+
+  path_filters:
+    - "!public/**"
