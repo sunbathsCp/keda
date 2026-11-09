@@ -18,3 +18,13 @@ reviews:
 
   path_filters:
     - "!public/**"
+    - "!resources/**"
+
+  path_instructions:
+    - path: "content/docs/**/*.md"
+      instructions: |
+        Check that the change targets the intended KEDA documentation version and
+        does not accidentally alter historical-version behavior. Validate Hugo
+        front matter, shortcodes, anchors, internal links, API names, and examples.
+        Prefer concrete correctness findings over subjective prose rewrites.
+
