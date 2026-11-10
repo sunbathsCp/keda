@@ -28,3 +28,13 @@ reviews:
         front matter, shortcodes, anchors, internal links, API names, and examples.
         Prefer concrete correctness findings over subjective prose rewrites.
 
+    - path: "content/docs/*/scalers/*.md"
+      instructions: |
+        Require the documented scaler front matter and parameter-description format.
+        Compare metadata names, defaults, allowed values, authentication options,
+        activation behavior, and YAML examples with kedacore/keda. Examples must not
+        contain real credentials and should use the supported KEDA API version.
+
+    - path: "content/troubleshooting/**/*.md"
+      instructions: |
+        Check that symptoms, diagnosis, commands, expected output, remediation, and
