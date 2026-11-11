@@ -38,3 +38,13 @@ reviews:
     - path: "content/troubleshooting/**/*.md"
       instructions: |
         Check that symptoms, diagnosis, commands, expected output, remediation, and
+        version applicability are clear. Flag destructive commands, unsafe secret
+        handling, and advice that could disrupt a production cluster.
+
+    - path: "hugo.toml"
+      instructions: |
+        Version ordering is functional: the first released docs version is treated
+        as latest. Check that added versions have corresponding content and data and
+        that aliases, redirects, menus, and unreleased-version settings remain valid.
+
+    - path: "layouts/**"
