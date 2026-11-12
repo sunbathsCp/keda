@@ -48,3 +48,13 @@ reviews:
         that aliases, redirects, menus, and unreleased-version settings remain valid.
 
     - path: "layouts/**"
+      instructions: |
+        Review escaping, accessible markup and keyboard behavior, responsive output,
+        and compatibility with existing Hugo content. Search-index field changes
+        may require matching changes in assets and hugo.toml.
+
+    - path: "assets/**"
+      instructions: |
+        Review browser compatibility, accessibility, unsafe HTML insertion, and
+        consistency with layouts and hugo.toml. Avoid unrelated style preferences.
+
