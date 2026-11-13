@@ -58,3 +58,13 @@ reviews:
         Review browser compatibility, accessibility, unsafe HTML insertion, and
         consistency with layouts and hugo.toml. Avoid unrelated style preferences.
 
+    - path: ".github/workflows/**"
+      instructions: |
+        Review permissions, pinned action revisions, fork-controlled inputs, secret
+        exposure, shell injection risks, and consistency with package.json scripts.
+        Do not duplicate findings already reported by CI.
+
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
