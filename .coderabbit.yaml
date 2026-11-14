@@ -68,3 +68,13 @@ knowledge_base:
   code_guidelines:
     enabled: true
     filePatterns:
+      - "CONTRIBUTING.md"
+  learnings:
+    scope: local
+  issues:
+    scope: local
+  pull_requests:
+    scope: local
+  linked_repositories:
+    - repository: "kedacore/keda"
+      instructions: >-
